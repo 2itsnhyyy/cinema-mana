@@ -1,0 +1,11 @@
+import { Entity, Column, Generated, PrimaryGeneratedColumn } from 'typeorm';
+
+@Entity()
+export class Customer {
+  @PrimaryGeneratedColumn()
+  id: number;
+  @Column()
+  name: string;
+  @Column()
+  phoneNumber: string;
+}

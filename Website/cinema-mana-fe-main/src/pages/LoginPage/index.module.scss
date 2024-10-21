@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.formLogin {
+    padding: 20px 60px;
+    max-width: 400px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.loginForm {
+    max-width: 300px;
+}
+
+.loginFormButton {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.loginTitle {
+    margin-bottom: -5px;
+    color: rgb(19, 38, 84);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.loginMessage {
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: rgb(19, 38, 84);
+}

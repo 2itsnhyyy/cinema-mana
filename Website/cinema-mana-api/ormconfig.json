@@ -1,0 +1,17 @@
+{
+  "type": "postgre",
+  "host": "localhost",
+  "port": 5432,
+  "username": "admin",
+  "password": "password",
+  "database": "cinema_db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+   "migrations": [
+      "src/migrations/*.ts",
+      "dist/migrations/*{.ts,.js}"
+    ],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  },
+  "synchronize": true
+}
